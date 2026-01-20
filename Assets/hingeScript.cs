@@ -14,6 +14,12 @@ public class hingeScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+
+        Debug.Log("sabarna");
     }
 
     void FixedUpdate()
