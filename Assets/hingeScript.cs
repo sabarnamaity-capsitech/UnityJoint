@@ -13,14 +13,13 @@ public class hingeScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        Debug.Log("Hello");
-        Debug.Log("Hello");
-        Debug.Log("Hello");
-        Debug.Log("Hello");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
+        Debug.Log("sabarna");
 
-
-
-
+        Debug.Log("sabarna");
     }
 
     void FixedUpdate()
@@ -40,5 +39,4 @@ public class hingeScript : MonoBehaviour
 
         rb.angularVelocity = moveClockwise ? moveSpeed : -moveSpeed;
     }
-    
 }
